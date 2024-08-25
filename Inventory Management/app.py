@@ -11,7 +11,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:swapnilg45@localho
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
 migrate = Migrate(app, db)
-app.config['SECRET_KEY'] = 'swapnilBhai'
+app.config['SECRET_KEY'] = 'asdf@123'
 
 login_manager = LoginManager()
 login_manager.init_app(app)
